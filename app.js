@@ -16,6 +16,6 @@ const Singleton = function(){
     return Singleton.ins = Singleton.ins ? Singleton.ins : this;
 };
 
-app.listen(5000, function () {
-    console.log('Example app listening on port 5000!');
+app.listen(8545, function () {
+    console.log('Example app listening on port 8545!');
 });
